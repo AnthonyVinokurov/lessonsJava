@@ -1,15 +1,18 @@
 public class This {
   public static void main(String[] args) {
-    Human human1 = new Human();
-    Human human2 = new Human("Name");
+
+    Human human2 = new Human("Name", 40);
     Human human3 = new Human("name", 2);
     System.out.println(Human.getDescription());
+    Human.printNumberOfPeople();
   }
 }
 
 class Human{
-  String name;
-  int age;
+  private  String name;
+  private int age;
+  private static int countPeople;
+
   public static String description = "Nice";
 
   public Human(){
@@ -21,8 +24,16 @@ class Human{
   }
   public Human(String name, int age){
     this.age = age;
+    this.name = name;
+    countPeople +=1;
     System.out.println("Hello from third ");
   }
+
+  public String toString(){
+    return name +", "+age;
+  }
+
+  public static void printNumberOfPeople(){System.out.println("Count of people  = " + countPeople);}
   public void setName(String name){
     this.name = name;
   }

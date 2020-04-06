@@ -5,7 +5,6 @@ public class Strings {
     String myStr = "Hello World!";
     String space = " ";
     String name = "Name";
-
     System.out.println(name+space+myStr);
   }
 }

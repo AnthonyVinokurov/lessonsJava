@@ -2,10 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d363a78-44de-498f-8dfc-b91dd7a45a75" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Forest/Squirell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Forest/Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson22.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson23StringBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson24ClassObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson25.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Something/SomeClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/Info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lesson_one/ClassesAndObjects.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lesson_one/ClassesAndObjects.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lesson_one/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lesson_one/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lesson_one/Test2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lesson_one/Test2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lesson_one/Human.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lesson_one/Human.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lesson_one/Strings.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lesson_one/Strings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lesson_one/This.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lesson_one/This.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/This.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/This.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,6 +31,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -33,6 +48,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="interfaces" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -45,31 +65,37 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.This">
-    <configuration name="Arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays" />
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="Lesson23StringBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson23StringBuilder" />
       <module name="lesson_one" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArraysOfStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysOfStrings" />
+    <configuration name="Lesson24ClassObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson24ClassObject" />
       <module name="lesson_one" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClassesAndObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ClassesAndObjects" />
+    <configuration name="Lesson25" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson25" />
       <module name="lesson_one" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultidimensionalArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MultidimensionalArrays" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interfaces.Test" />
       <module name="lesson_one" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -82,19 +108,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Arrays" />
-      <item itemvalue="Application.ArraysOfStrings" />
-      <item itemvalue="Application.ClassesAndObjects" />
-      <item itemvalue="Application.MultidimensionalArrays" />
       <item itemvalue="Application.This" />
+      <item itemvalue="Application.Lesson23StringBuilder" />
+      <item itemvalue="Application.Lesson24ClassObject" />
+      <item itemvalue="Application.Lesson25" />
+      <item itemvalue="Application.Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Lesson25" />
+        <item itemvalue="Application.Lesson24ClassObject" />
+        <item itemvalue="Application.Lesson23StringBuilder" />
         <item itemvalue="Application.This" />
-        <item itemvalue="Application.ClassesAndObjects" />
-        <item itemvalue="Application.MultidimensionalArrays" />
-        <item itemvalue="Application.ArraysOfStrings" />
-        <item itemvalue="Application.Arrays" />
       </list>
     </recent_temporary>
   </component>
